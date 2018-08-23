@@ -18,3 +18,6 @@ Install Python3
 change `$watcher.Path` to the directory of the `Database` folder on the BRIDGE COMPUTER.
 
 Create file `C:\Users\FlexII\Documents\cdv_file_change_log.txt`
+
+Make sure to enable execution of unsigned power shell scripts on the bridge computer. [Here](https://superuser.com/questions/106360/how-to-enable-execution-of-powershell-scripts) is a link with instructions.
+
