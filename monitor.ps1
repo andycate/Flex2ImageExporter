@@ -9,7 +9,7 @@ $watcher.EnableRaisingEvents = $true
 $action = { $path = $Event.SourceEventArgs.FullPath
             $changeType = $Event.SourceEventArgs.ChangeType
             $logline = "$(Get-Date),$changeType,$path"
-            Add-content "C:\Users\FlexII\Documents\Flex2ImageExplorer\cdv_image_log.csv" -value $logline
+            Add-content "C:\Users\FlexII\Documents\Flex2ImageExporter\cdv_image_log.csv" -value $logline
           }    
 ### DECIDE WHICH EVENTS SHOULD BE WATCHED 
 Register-ObjectEvent $watcher "Created" -Action $action
